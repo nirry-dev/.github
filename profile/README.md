@@ -25,6 +25,7 @@ actually surprised me.
 | --- | --- |
 | **[vramlease](https://github.com/nirry-dev/vramlease)** | Cooperative GPU memory leasing — let several local jobs share one GPU by VRAM *budget*, with crash-safe leases (a lease lives as long as its TCP connection) and priority + preemption. Pure stdlib. |
 | **[llm-council](https://github.com/nirry-dev/llm-council)** | Multi-model consensus for local models: propose → **blind** peer review → chair synthesis, over any OpenAI-compatible endpoint (llama.cpp, Ollama, LM Studio…). Pure stdlib. |
+| **[vulntriage](https://github.com/nirry-dev/vulntriage)** | Triage dependency CVEs by *real-world exploitability* — correlate OSV findings with CISA KEV + FIRST EPSS and rank by what to fix first, not raw CVSS. Pure stdlib. |
 
 *More tools land here as I build them.*
 
